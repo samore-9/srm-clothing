@@ -907,6 +907,7 @@ address { font-style: normal; }
 .newsletter-section {
   background: linear-gradient(135deg, var(--clr-dark) 0%, var(--clr-dark-3) 100%);
   padding: 5rem 1.5rem;
+  overflow: hidden; /* prevents any child from bleeding outside */
 }
 .newsletter-inner {
   max-width: 700px;
@@ -927,15 +928,26 @@ address { font-style: normal; }
 .newsletter-field {
   display: flex;
   gap: .5rem;
-  background: rgba(255,255,255,.1);
-  border: 1.5px solid rgba(255,255,255,.2);
-  border-radius: 50px;
-  padding: .375rem;
+  background: transparent;        /* removed semi-transparent dark bg */
+  border: none;                   /* removed pill border */
+  border-radius: 0;               /* removed pill shape */
+  padding: 0;
   max-width: 520px;
   margin: 0 auto;
+}
+.newsletter-input {
+  /* Override: give input its own visible border instead */
+  border: 1.5px solid rgba(255,255,255,.25) !important;
+  border-radius: 50px !important;
+  padding: .7rem 1.25rem !important;
   transition: border-color var(--transition);
 }
-.newsletter-field:focus-within { border-color: var(--clr-gold); }
+.newsletter-input:focus {
+  border-color: var(--clr-gold) !important;
+  outline: none;
+}
+/* Remove the old focus-within rule — now handled per-input */
+/* .newsletter-field:focus-within intentionally omitted */
 .newsletter-input {
   flex: 1;
   background: transparent;
@@ -1184,7 +1196,8 @@ address { font-style: normal; }
   .footer-bottom { flex-direction: column; text-align: center; }
 
   /* Newsletter */
-  .newsletter-field { flex-direction: column; border-radius: var(--radius-md); padding: .75rem; }
+  .newsletter-field { flex-direction: column; gap: .75rem; }
+  .newsletter-input { width: 100%; }
   .newsletter-btn { width: 100%; justify-content: center; border-radius: 50px; }
 
   .back-to-top { right: 1rem; bottom: 1rem; }
