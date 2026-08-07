@@ -1,8 +1,3 @@
-/* ============================================================
-   SRM Clothing – script.js
-   Features: Cart, Wishlist, Search, Filter, Nav, Newsletter,
-             Scroll Animations, Back-to-Top, Toast Notifications
-   ============================================================ */
 
 'use strict';
 
