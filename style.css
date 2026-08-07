@@ -1,8 +1,4 @@
-/* ============================================================
-   SRM Clothing – style.css
-   Palette: Charcoal #1a1a2e | Ivory #f8f4ef | Gold #c9a96e | Blush #e8d5c4
-   Type: Playfair Display (display) + Inter (body)
-   ============================================================ */
+
 
 /* ---- RESET & BASE ---- */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
