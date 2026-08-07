@@ -117,13 +117,7 @@ const PRODUCTS = [
     badge: 'hot', tags: ['beauty', 'lipstick', 'makeup']
   },
   {
-    id: 18, name: 'Midnight Rose Eau de Parfum', category: 'beauty',
-    price: 2999, originalPrice: 4499, discount: 33,
-    rating: 4.9, reviews: 465, emoji: '🌹',
-    badge: 'new', tags: ['beauty', 'perfume', 'fragrance']
-  },
-  {
-    id: 19, name: 'Gentle Charcoal Face Wash', category: 'beauty',
+    id: 19, name: 'Lakme Face Wash', category: 'beauty',
     price: 399, originalPrice: 699, discount: 43,
     rating: 4.6, reviews: 338, emoji: '🧴',
     badge: 'sale', tags: ['beauty', 'face-wash', 'skincare']
