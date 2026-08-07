@@ -488,6 +488,7 @@ address { font-style: normal; }
   position: absolute;
   bottom: 2rem;
   left: -2rem;
+  margin: 2rem;
   background: var(--clr-gold);
   color: var(--clr-dark);
   border-radius: var(--radius-md);
