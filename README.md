@@ -19,7 +19,6 @@
 - [Getting Started](#getting-started)
 - [Responsive Breakpoints](#responsive-breakpoints)
 - [Product Data](#product-data)
-- [Browser Support](#browser-support)
 - [License](#license)
 
 ---
