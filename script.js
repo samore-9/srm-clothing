@@ -13,12 +13,6 @@ const PRODUCTS = [
     badge: 'sale', tags: ['men', 'formal', 'blazer']
   },
   {
-    id: 2, name: 'Oxford Button-Down Shirt', category: 'men',
-    price: 1199, originalPrice: 1899, discount: 37,
-    rating: 4.6, reviews: 218, emoji: '👔',
-    badge: 'new', tags: ['men', 'casual', 'shirt']
-  },
-  {
     id: 3, name: 'Slim Chino Trousers', category: 'men',
     price: 1599, originalPrice: 2499, discount: 36,
     rating: 4.5, reviews: 175, emoji: '👖',
@@ -65,7 +59,7 @@ const PRODUCTS = [
     badge: 'hot', tags: ['footwear', 'sneakers', 'sports']
   },
   {
-    id: 10, name: 'Oxford Derby Shoes', category: 'footwear',
+    id: 10, name: 'One 8 Studio', category: 'footwear',
     price: 3199, originalPrice: 4799, discount: 33,
     rating: 4.7, reviews: 198, emoji: '👞',
     badge: null, tags: ['footwear', 'formal', 'oxford']
