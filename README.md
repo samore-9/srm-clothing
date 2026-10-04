@@ -337,7 +337,7 @@ srm-clothing/
     ├── Scroll animations (IntersectionObserver)
     ├── Counter animation (RAF)
     └── Promo countdown timer
-`
+``
 
 ---
 
