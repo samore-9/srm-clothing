@@ -281,7 +281,7 @@ All colours are CSS custom properties in `style.css`:
 
 ## Folder Structure (Expanded)
 
-``
+```
 srm-clothing/
 │
 ├── index.html          # 490 lines
@@ -337,7 +337,7 @@ srm-clothing/
     ├── Scroll animations (IntersectionObserver)
     ├── Counter animation (RAF)
     └── Promo countdown timer
-``
+```
 
 ---
 
